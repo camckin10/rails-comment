@@ -1,9 +1,15 @@
-#this renders a new comment on a new page
+#entire code in rb file allows user to create a comment, save it to the db, then reload the home pg w/ existing comment
+
+#this class renders a new comment on a new page
 class CommentController < ApplicationController 
 	def store
 		#render plain:  params[:comment].inspect
 		@comment = Comment.new(comment_params)
 		@comment.save
+		#broadcasting comments using Pusher
+		Pusher.trigger('comment-channel', 'new-comment', {
+			comment: @comment.comment
+		})
 		redirect_to '/'
 	end 
 
