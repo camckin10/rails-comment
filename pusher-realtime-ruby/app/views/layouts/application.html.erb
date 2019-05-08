@@ -16,15 +16,10 @@
   </head>
 
   <body>
-  <h1>Pusher Test</h1>
-  <p>
-    Try publishing an event to channel <code>my-channel</code>
-    with event name <code>my-event</code>.
-  </p>
-
-  <h1 style = "text-align:center">Real-Time Comments!</h1>
+  <h1 style = "text-align:center">Real-Time Microaggressions!</h1>
 	<div class = "wrapper">
-		<img src ="https://image4.owler.com/logo/pusher_owler_20160228_200254_large.png" height="150"alt="Pusher"/>
+    <img src="https://i.ytimg.com/vi/hDd3bzA7450/maxresdefault.jpg" height="150" alt="microaggression"/>
+    
 		<div class="top">
 			<%= form_with scope: :comment, url: '/comment/store', local: true do |form| %>
 				<div class="form-group">
@@ -37,7 +32,7 @@
 	</div>
 
 		<div class="bottom" id="comment_section">
-				<h2>Comments</h2>
+				<h2>Microaggressions</h2>
 				<% @comments.each do |comment| %>
 					<p><%= comment.comment %></p>
 			<% end %>
