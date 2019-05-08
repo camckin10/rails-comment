@@ -13,7 +13,7 @@
  <br/>
 
  ## Images of App:
- ![Home page](link)
+ ![Img-title](link)
  
  
 ## Getting Started
@@ -28,22 +28,22 @@ git clone git@github.com:camckin10/rails-comment.git
 ``` 
 <br/>
 Install the following dependencies
+
 ```
 cd rails-comment/pusher-action-cable
 gem install
-
 ```
 <br/>
 Next, Run Migrations
+
 ```
 rails db:migrate
-
 ```
 <br/>
 Run The App in your Terminal
+
 ```
 rails server or rails s 
-
 ```
 <br/>
 
