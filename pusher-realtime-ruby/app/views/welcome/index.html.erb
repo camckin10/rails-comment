@@ -19,12 +19,12 @@
 		<% end %>
 	</div>
 
-				<script>
-            var channel = pusher.subscribe('comment-channel');
-            channel.bind('new-comment', function(data) {
-                let comment = data.comment;
-                var div = document.getElementById('comment_section');
-                div.innerHTML += `<p> ${comment} </p>`;
-            });
-        </script>  
+				# <script>
+        #     var channel = pusher.subscribe('comment-channel');
+        #     channel.bind('new-comment', function(data) {
+        #         let comment = data.comment;
+        #         var div = document.getElementById('comment_section');
+        #         div.innerHTML += `<p> ${comment} </p>`;
+        #     });
+        # </script>  
 </div>

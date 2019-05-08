@@ -18,4 +18,5 @@ class CommentController < ApplicationController
 			params.require(:comment).permit(:comment)
 			#.require method = mark params as required
 			#.permit method = set param as permitted, and limit mass updating of attributes.
+		end
 end 

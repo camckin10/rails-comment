@@ -4,14 +4,14 @@
     <title>PusherRealtimeRuby</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
     <script>
-    var pusher = new Pusher('4feec5d211b73d38937f', {
-    cluster: 'us2',
-    encrypted: true
-  });
-  </script>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+      var pusher = new Pusher('4feec5d211b73d38937f', {
+      cluster: 'us2',
+      encrypted: true
+      });
+    </script>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
