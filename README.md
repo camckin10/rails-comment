@@ -1,7 +1,7 @@
 # Ruby On Rails Microaggression Comments App
 
 Created a Comments app using Ruby on Rails. 
-Tutorial link here: [Tutoriallink](https://pusher.com/tutorials/comments-app-ruby-rails#adding-realtime-functionality-using-pusher)
+Tutorial link here: [Tutorial](https://pusher.com/tutorials/comments-app-ruby-rails#adding-realtime-functionality-using-pusher)
  
 
  <br/>
@@ -12,12 +12,12 @@ Tutorial link here: [Tutoriallink](https://pusher.com/tutorials/comments-app-rub
  <br/>
 
  ## Images of App:
- [app-img](https://drive.google.com/open?id=1tuiLIDJsCXlv_wVPOMK4dtWlPLRZOTp0)
+ ![app-img](https://drive.google.com/open?id=1tuiLIDJsCXlv_wVPOMK4dtWlPLRZOTp0)
  
  
 ## Getting Started
 Before cloning the repo, check your computer to see if the following prerequistes(Git, Ruby, Rails, and Pusher) are downloaded onto your computer. 
-Pusher download here:[Pusherdoc](https://pusher.com/docs/channels/getting_started/javascript) 
+Pusher download here:[Pusher](https://pusher.com/docs/channels/getting_started/javascript) 
 
 <br/>
 Once all prerequistes have been downloaded,clone the repo.
