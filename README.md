@@ -1,7 +1,10 @@
-# README
-
 # Ruby On Rails Microaggression Comments App
+
+
+# Description
+
 	Created a Comments app using Ruby on Rails. 
+
 	Tutorial found here:
 	[Tutorial Link](https://pusher.com/tutorials/comments-app-ruby-rails#adding-realtime-functionality-using-pusher)
  
@@ -13,7 +16,7 @@
  <br/>
 
  ## Images of App:
- ![Img-title](link)
+ <!---![Img-title](link)-->
  
  
 ## Getting Started
