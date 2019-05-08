@@ -1,24 +1,62 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby On Rails Microaggression Comments App
+	Created a Comments app using Ruby on Rails. 
+	Tutorial can be found here: [link]
+ 
+ <br/>
 
-Things you may want to cover:
+ App Deployment can be viewed here: 
+ [app-img](link)
+ 
+ <br/>
 
-* Ruby version
+ ## Images of App:
+ ![Home page](https://drive.google.com/uc?export=view&id=1rJyo12iCAkp7viEQ20KHCXh1ASB4FkE7)
+ 
+ 
+## Getting Started
+Before cloning the repo, check your computer to see if the following prerequistes(Git, Ruby, Rails, and Pusher) are downloaded onto your computer. 
+Pusher download can be found here: [link] 
 
-* System dependencies
+<br/>
+Once all prerequistes have been downloaded,clone the repo.
 
-* Configuration
+``` 
+git clone git@github.com:camckin10/rails-comment.git 
+``` 
+<br/>
+Install the following dependencies
+```
+cd rails-comment/pusher-action-cable
+gem install
 
-* Database creation
+```
+<br/>
+Next, Run Migrations
+```
+rails db:migrate
 
-* Database initialization
+```
+<br/>
+Run The App in your Terminal
+```
+rails server or rails s 
 
-* How to run the test suite
+```
+<br/>
 
-* Services (job queues, cache servers, search engines, etc.)
+## Built With 
+Ruby 
 
-* Deployment instructions
+Rails
 
-* ...
+Git
+
+Pusher
+
+## Authors 
+Chelsey McKinney
+
+## Acknowledgments
+Thanks to christiannwamba for the Rails tutorial! 
