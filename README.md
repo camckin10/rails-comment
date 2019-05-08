@@ -12,7 +12,8 @@ Tutorial link here: [Tutorial](https://pusher.com/tutorials/comments-app-ruby-ra
  <br/>
 
  ## Images of App:
-![app-img](https://drive.google.com/open?id=1tuiLIDJsCXlv_wVPOMK4dtWlPLRZOTp0)
+<!--![app-img](https://drive.google.com/open?id=1tuiLIDJsCXlv_wVPOMK4dtWlPLRZOTp0)-->
+![app-img](https://drive.google.com/uc?export=view&id=1tuiLIDJsCXlv_wVPOMK4dtWlPLRZOTp0)
  
  
 ## Getting Started
